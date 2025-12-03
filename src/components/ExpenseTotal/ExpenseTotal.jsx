@@ -4,7 +4,7 @@ function ExpenseTotal({ expenses }) {
   const total = expenses.reduce((sum, item) => sum + item.amount, 0);
 
   return (
-    <h2 className={styles.total}>Total: ${total}</h2>
+    <h2 className={styles.total}>Total: ₹{total}</h2>
   );
 }
 
